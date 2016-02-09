@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+// html {
+//   @include desktop {
+//     min-width: 980px;
+//   }
+//   @include tablet {
+//     min-width: 760px;
+//   }
+// }
+body {
+  font-family: $baseFont;
+  // lost-utility: edit;
+}
+p {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  // font-family: $gnuolane;
+  // margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+.align-right {
+  float: right;
+}
+.align-left {
+  float: left;
+}
+.align-center {
+  margin: 0 auto;
+}
+.text-right {
+  text-align: right;
+}
