@@ -1,1 +1,37 @@
 // _fonts.scss
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("fonts/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSansLight";
+  src: url("fonts/OpenSans-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSansLightItalic";
+  src: url("fonts/OpenSans-LightItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSansBold";
+  src: url("fonts/OpenSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSansSemibold";
+  src: url("fonts/OpentSans-Semibold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Nautilus";
+  src: url("fonts/Nautilus.otf") format("opentype");
+}
+@font-face {
+  font-family: "ArsenalRegular";
+  src: url("fonts/Arsenal-Regular.otf") format("opentype");
+}
+// @font-face {
+//   font-family: "PlayfairDisplayRegular";
+//   src: url("fonts/PlayfairDisplay-Regular.otf") format("opentype");
+// }
+// @font-face {
+//   font-family: "PlayfairDisplayBold";
+//   src: url("fonts/PlayfairDisplay-Bold.otf") format("opentype");
+// }

@@ -1,3 +1,5 @@
+@lost gutter 10px;
+
 * {
   box-sizing: border-box;
 }
@@ -11,10 +13,29 @@
 // }
 body {
   font-family: $baseFont;
+  line-height: $baseLine;
+  background-color: $lightBg;
   // lost-utility: edit;
 }
 p {
   margin: 0;
+  font-family: $lightFont;
+  color: $darkHeadings;
+}
+a {
+  text-decoration: none;
+  font-family: $lightFont;
+  color: $primaryColor;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.hovered,
+.footer_widgets-hovered {
+  color: $darkHeadings;
+}
+.footer_widgets {
+  color: $lightBgLink;
 }
 h1,
 h2,
@@ -22,13 +43,34 @@ h3,
 h4,
 h5,
 h6 {
-  // font-family: $gnuolane;
-  // margin: 0;
+  font-family: $semiBoldFont;
+  margin: 0;
+}
+h1 {
+  font-size: 72px;
+  color: $darkHeadings;
 }
 
 ul {
   padding: 0;
   margin: 0;
+}
+blockquote {
+  font-family: $italicFont;
+  position: relative;
+  color: $lightBgText;
+  &:before {
+    font-family: $secondaryTitle;
+    color: $lightBg;
+    position: absolute;
+    left: -40px;
+    top: -10px;
+    font-size: 5rem;
+    content: '\201C';
+  }
+}
+.l-container {
+  lost-center: $container;
 }
 .align-right {
   float: right;

@@ -1,0 +1,71 @@
+// _main.scss
+.l-main {
+  lost-column: 9/15;
+
+
+
+}
+.l-heroUnit {
+  text-align: center;
+  padding-bottom: $baseLine * 2;
+  background-color: #fff;
+  border: 1px solid $border;
+  padding: $baseLine / 2;
+  margin-bottom: $baseLine/2;
+  &_title {
+    display: inline-block;
+    margin-bottom: $baseLine/2;
+    color: $lightHeadings;
+  }
+  &_news {
+    @include listUnstyled;
+    text-align: left;
+  }
+}
+.m-news {
+  &_item {
+    color: $secondaryColor;
+  }
+}
+.l-blogPosts {
+  lost-utility: clearfix;
+  height: 100%;
+  background-color: #fff;
+  border: 1px solid $border;
+  padding: $baseLine / 2;
+  margin-bottom: $baseLine/2;
+}
+.m-blogPost {
+  lost-column: 1/2;
+  lost-waffle: 1/2;
+  text-align: center;
+  padding-bottom: $baseLine * 2;
+  &_category {
+    font-family: $primaryTitle;
+    font-size: $baseFontSize;
+    text-transform: uppercase;
+    color: $primaryColor;
+  }
+  &_title {
+    margin-bottom: $baseLine / 2;
+    a {
+    font-family: $primaryTitle;
+    color: $darkHeadings;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 2.4rem;
+    }
+  }
+  &_exerpt {
+    margin-bottom: $baseLine/2;
+  }
+  &_author {
+    a {
+      font-family: $lightFont;
+      font-size: 12px;
+      color: $lightHeadings;
+      text-transform: uppercase;
+    }
+  }
+}

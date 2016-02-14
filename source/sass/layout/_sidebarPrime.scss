@@ -1,0 +1,47 @@
+// _sidebarPrime.scss
+.l-sidebarPrime {
+  lost-column: 3/15;
+
+  &_banner {
+    background-color: $darkBg;
+    border: 1px solid $border;
+    padding: $baseLine / 3;
+    margin-bottom: $baseLine/2;
+    text-align: center;
+  }
+  &_categories {
+    background-color: $darkBg;
+    border: 1px solid $border;
+    padding: $baseLine / 3;
+    margin-bottom: $baseLine/2;
+    text-align: center;
+  }
+  &_categoryList {
+    @include listUnstyled;
+    text-align: left;
+    a {
+      text-transform: uppercase;
+    }
+  }
+  &_categoryItem {
+    a {
+      font-family: $boldFont;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+  }
+  &_subtitle {
+    margin-bottom: $baseLine/2;
+    color: $lightHeadings;
+    padding-bottom: $baseLine/2;
+    border-bottom: 1px solid $border;
+    &:before {
+      content: url('images/icons/category.png');
+      margin-right: 3px;
+    }
+  }
+  &_icon {
+    width: $baseLine;
+    height: auto;
+  }
+}

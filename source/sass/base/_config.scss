@@ -1,9 +1,39 @@
 // _config.scss
 
 // Grid settings
-// $container: 980px;
+$container: 1170px;
+
+// Typography
+$baseFontSize: 1em;
+$baseLine: $baseFontSize * 1.75;
 
 // Font families
-$baseFont: ;
-$boldFont: ;
-$italic: ;
+$baseFont: "OpenSansRegular", sans-serif;
+$lightFont: "OpenSansLight", sans-serif;
+$italicFont: "OpenSansLightItalic", sans-serif;
+$boldFont: "OpenSansBold", sans-serif;
+$semiBoldFont: "OpenSansSemiBold", sans-serif;
+$primaryTitle: "ArsenalRegular", serif;
+$secondaryTitle: "Nautilus", serif;
+
+// Colors
+$lightBg: #F6F5F2;
+$darkBg: #FAFAFA;
+$border: #e6e7e8;
+$lightBgText: #a7a7a7;
+$lightBgLink: #767676;
+$lightHeadings: #474747;
+$darkHeadings: #222222;
+
+$textOnPrimary: #FFFFFD;
+// $textOnPrimary: #0d506c;
+$primaryFaded: #65c6ef;
+
+$primaryColor: #03A9F4;
+// $primaryColor: #1dafec;
+
+$secondaryDark: #2e5a6c;
+$secondaryColor: #1789b9;
+$secondaryFaded: #1f9cd2;
+
+$errorColor: #ef3556;

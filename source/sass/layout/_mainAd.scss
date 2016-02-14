@@ -1,0 +1,10 @@
+// _mainAd.scss
+.l-mainAdArea {
+  lost-center: $container;
+  padding: $baseLine/2 0;
+  margin-top: $baseLine/2;
+  margin-bottom: $baseLine/2;
+  border: 1px solid $border;
+  text-align: center;
+  background-color: $darkBg;
+}

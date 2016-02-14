@@ -1,1 +1,9 @@
 // _footer.scss
+.l-footer {
+  background-color: $darkBg;
+  border: 1px solid $border;
+  padding: $baseLine/2;
+  &_copy {
+    text-align: center;
+  }
+}
