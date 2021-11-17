@@ -1,9 +1,9 @@
 // _main.scss
 .l-main {
   lost-column: 9/15;
-
-
-
+  @include tablet {
+    lost-column: 1/1;
+  }
 }
 .l-heroUnit {
   text-align: center;
@@ -40,6 +40,9 @@
   lost-waffle: 1/2;
   text-align: center;
   padding-bottom: $baseLine * 2;
+  @include tablet {
+    lost-column: 1/1;
+  }
   &_category {
     font-family: $primaryTitle;
     font-size: $baseFontSize;

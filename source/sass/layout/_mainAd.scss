@@ -7,4 +7,7 @@
   border: 1px solid $border;
   text-align: center;
   background-color: $darkBg;
+  @include tablet {
+    display: none;
+  }
 }

@@ -1,6 +1,9 @@
 // _sidebarSec.scss
 .l-sidebarSec {
   lost-column: 3/15;
+  @include tablet {
+    lost-column: 1/1;
+  }
   &_banner {
     text-align: center;
     background-color: $darkBg;
@@ -9,6 +12,7 @@
     margin-bottom: $baseLine/2;
   }
   &_section {
+    text-align: center;
     background-color: $darkBg;
     border: 1px solid $border;
     padding: $baseLine / 3;
